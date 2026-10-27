@@ -10,8 +10,8 @@ const portfolio = {
     location: 'دير الزور، سوريا',
     email: 'abomos3ab737@gmail.com',
     phone: '+963957863599',
-    portrait: '/images/profile/portrait.webp',
-    cv: '/files/resume.pdf',
+    portrait: `${import.meta.env.BASE_URL}images/profile/portrait.webp`,
+    cv: `${import.meta.env.BASE_URL}files/resume.pdf`,
     github: 'https://github.com/m7mdite',
     telegram: 'https://t.me/m7md_ite0',
     facebook: 'https://facebook.com/m7mdite',
@@ -50,8 +50,8 @@ const portfolio = {
       role: 'مطوّر التطبيق والمشرف التقني على المنظومة؛ ربط الواجهة الأمامية بالـ Backend، وتنصيب نموذج الذكاء الاصطناعي، ومراجعة الأخطاء والاختبارات الدورية، مع تدخلات في الـ Backend.',
       technologies: ['Flutter', 'GetX', 'MVC', 'Express.js', 'MongoDB', 'Socket.IO', 'Machine Learning', 'Neural Networks'],
       result: 'مشروع تخرج — التقييم 96%',
-      cover: '/images/projects/dental-care/cover.webp',
-      gallery: ['/images/projects/dental-care/screenshot-01.webp', '/images/projects/dental-care/screenshot-02.webp', '/images/projects/dental-care/screenshot-03.webp'],
+      cover: `${import.meta.env.BASE_URL}images/projects/dental-care/cover.webp`,
+      gallery: [`${import.meta.env.BASE_URL}images/projects/dental-care/screenshot-01.webp`, `${import.meta.env.BASE_URL}images/projects/dental-care/screenshot-02.webp`, `${import.meta.env.BASE_URL}images/projects/dental-care/screenshot-03.webp`],
       github: '', demo: ''
     },
     {
@@ -66,8 +66,8 @@ const portfolio = {
       role: 'مطور Laravel والمشرف العام على المشروع؛ تجهيز وتعديل الـ API بحسب احتياجات الواجهة، والمساعدة التقنية للفريق وتنصيب نموذج الذكاء الاصطناعي وشرح تشغيله.',
       technologies: ['Laravel', 'React', 'REST API', 'Llama', 'Pagination', 'PDF Generation'],
       result: 'مشروع فصلي في السنة الرابعة — التقييم 86%',
-      cover: '/images/projects/scholarships/cover.webp',
-      gallery: ['/images/projects/scholarships/screenshot-01.webp', '/images/projects/scholarships/screenshot-02.webp'],
+      cover: `${import.meta.env.BASE_URL}images/projects/scholarships/cover.webp`,
+      gallery: [`${import.meta.env.BASE_URL}images/projects/scholarships/screenshot-01.webp`, `${import.meta.env.BASE_URL}images/projects/scholarships/screenshot-02.webp`],
       github: '', demo: ''
     },
     {
@@ -82,8 +82,8 @@ const portfolio = {
       role: 'تصميم وتنفيذ التطبيق، وفحص سلوك موقع الجامعة وتحليل الاستجابة، ومعالجة الصفحات التي تعرض 50 علامة فقط.',
       technologies: ['Flutter', 'Dart', 'CSV', 'HTML Parsing', 'SharedPreferences'],
       result: 'تطبيق عملي لحل مشكلة واجهتني عند التخرج',
-      cover: '/images/projects/marks-app/cover.webp',
-      gallery: ['/images/projects/marks-app/screenshot-01.webp', '/images/projects/marks-app/screenshot-02.webp'],
+      cover: `${import.meta.env.BASE_URL}images/projects/marks-app/cover.webp`,
+      gallery: [`${import.meta.env.BASE_URL}images/projects/marks-app/screenshot-01.webp`, `${import.meta.env.BASE_URL}images/projects/marks-app/screenshot-02.webp`],
       github: '', demo: 'https://t.me/m7md_ite0'
     },
     {
@@ -98,8 +98,8 @@ const portfolio = {
       role: 'دراسة الاحتياج ووضع خطة العمل وتطوير التطبيق.',
       technologies: ['Flutter', 'Dart', 'SQLite', 'Local Storage'],
       result: '',
-      cover: '/images/projects/halaqati/cover.webp',
-      gallery: ['/images/projects/halaqati/screenshot-01.webp', '/images/projects/halaqati/screenshot-02.webp'],
+      cover: `${import.meta.env.BASE_URL}images/projects/halaqati/cover.webp`,
+      gallery: [`${import.meta.env.BASE_URL}images/projects/halaqati/screenshot-01.webp`, `${import.meta.env.BASE_URL}images/projects/halaqati/screenshot-02.webp`],
       github: '', demo: ''
     }
   ],
@@ -130,9 +130,9 @@ const portfolio = {
       summary: 'تدريب عملي على منظومة المراقبة المتكاملة، بدءاً من الكاميرات والتوصيلات، وصولاً إلى التخزين والعرض والشبكات.',
       topics: ['الكاميرات ومكوّنات النظام', 'التوصيلات والبنية الأساسية', 'التخزين واستعراض التسجيلات', 'الشبكات وربط مكوّنات المنظومة'],
       images: [
-        '/images/workshops/camera-monitoring-01.webp',
-        '/images/workshops/camera-monitoring-02.webp',
-        '/images/workshops/camera-monitoring-03.webp'
+        `${import.meta.env.BASE_URL}images/workshops/camera-monitoring-01.webp`,
+        `${import.meta.env.BASE_URL}images/workshops/camera-monitoring-02.webp`,
+        `${import.meta.env.BASE_URL}images/workshops/camera-monitoring-03.webp`
       ]
     }
   ],
